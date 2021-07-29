@@ -1,82 +1,52 @@
-
-# Internet Analysis
+# Internet Analysis ![Flake8](https://github.com/kaazima/Internet-Analysis-Project/actions/workflows/flake8.yml/badge.svg) ![Pylint](https://github.com/kaazima/Internet-Analysis-Project/actions/workflows/pylint.yml/badge.svg) [![GitHub license](https://img.shields.io/github/license/kaazima/Internet-Analysis-Project)](https://github.com/kaazima/Internet-Analysis-Project/blob/master/LICENSE)
 
 A Data Analysis project to determine the best times for internet usage by analyzing the log file provided by the user.
 
-# User story and task
+# User story
 
-Aravind while using mobile data noticed he was facing major network fluctuations and hence wants to identify the best and worst time during a day for best internet usage based on various factors as mentioned in the next section. Analyse the log file given to better understand the situation and apply data science skills to clean, model and analyse the data to provide him answers to the questions asked in later sections of this document.
+Aravind while using mobile data noticed he was facing major network fluctuations and hence wants to identify the best and worst time during a day for best internet usage based on various factors as mentioned [here](Task.md). Analyse the log file given to better understand the situation and apply data science skills to clean, model and analyse the data to provide him answers to the questions asked in later sections of this [document](Task.md).
 
-## Best conditions
+# :octocat: How to contribute?
 
-- Latency: lower the better
-- Jitter: lower the better
-- Download: higher the better
-- Upload: higher the better
-- Packet Loss: 0.0%
+All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki contents -- whatever you have to offer, it would be appreciated!
 
-## Analysis of days
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on contributing.
 
-1. Which day was the **best** in terms of **average latency**?
-1. Which day was the **worst** in terms of **average latency**?
-1. Which day was the **best** in terms of **average jitter**?
-1. Which day was the **worst** in terms of **average jitter**?
-1. Which day was the **best** in terms of **average download speed**?
-1. Which day was the **worst** in terms of **average download speed**?
-1. Which day was the **best** in terms of **average upload speed**?
-1. Which day was the **worst** in terms of **average upload speed**?
-1. Which day was the **best** in terms of **average packet loss**?
-1. Which day was the **worst** in terms of **average packet loss**?
-1. Which day had the **most network outages**?
-1. Which day had the **least network outages**?
+# :scroll: License
 
-## Analysis of hours
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-1. Which hour was the **best** in terms of **average latency**?
-1. Which hour was the **worst** in terms of **average latency**?
-1. Which hour was the **best** in terms of **average jitter**?
-1. Which hour was the **worst** in terms of **average jitter**?
-1. Which hour was the **best** in terms of **average download speed**?
-1. Which hour was the **worst** in terms of **average download speed**?
-1. Which hour was the **best** in terms of **average upload speed**?
-1. Which hour was the **worst** in terms of **average upload speed**?
-1. Which hour was the **best** in terms of **average packet loss**?
-1. Which hour was the **worst** in terms of **average packet loss**?
-1. Which hour had the **most network outages**?
-1. Which hour had the **least network outages**?
+# :family: Team
 
-## Overall analysis
+-   **Kaazima Ifrah** - _Data Analysis_ - [KaazimaIfrah](https://github.com/kaazima)
+-   **Aravind V. Nair** - _CI_ - [AravindVNair99](https://github.com/AravindVNair99)
 
-1. When would be the **best** time for **downloads** for each day?
-1. When would be the **best** time for **uploads** for each day?
-1. Which would be the **best day and hour for low latency** activities?
-1. Which was the **most connected server**?
+See the full list of [contributors](https://github.com/kaazima/Internet-Analysis-Project/graphs/contributors) who participated in this project and statistics.
 
-# Installation
+# :gear: Installation
 
-## Run on Google Colab
+Please read [Installation](Installation.md) file for details.
 
-* Click [Here](https://github.com/kaazima/Internet-Analysis-Project/blob/master/Internet_Analysis.ipynb)
-* Click on *Open in Colab* button
-* Click on *Copy to Drive*
-* Run cells
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/kaazima/Internet-Analysis-Project.git
-```
-
-Go to the project directory
-
-```bash
-  cd Internet-Analysis-Project/
-```
-
-## Files
+# :file_folder: Files
 
 `statistics.log` - contains data provided by the user that can be used to determine the best times for internet usage. This data was generated by scheduling a cron job of running speedtest every two minutes.
 
 `Internet_Analysis.ipynb` - contains data cleaning by parsing the log file, data analysis, and conclusions of the analysis. 
+
+# :scroll: Changelog
+
+Check the [changelog here](https://github.com/kaazima/Internet-Analysis-Project/commits/master).
+
+# :memo: I found some bugs or issues. Where do I report?
+
+Report [here](https://github.com/kaazima/Internet-Analysis-Project/issues/new/choose) in detail answering these questions:
+
+-   What steps did you take to make the bug appear?
+-   How can the bug be fixed? (In case you know)
+-   Which OS and which all packages/software/dependencies are you using?
+-   Have you tried any troubleshooting steps such as a reboot for example?
+-   Have you followed the prescribed prerequisites?
+
+# :envelope: How do I contact the team?
+
+Check [here](https://github.com/kaazima/Internet-Analysis-Project/graphs/contributors) for the list of contributors. Contact one of them through their profiles.
